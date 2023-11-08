@@ -3,7 +3,7 @@
     --black: rgb(36, 36, 36);
     --timeline-thickness: 10px;
     --timeline-color: var(--red);
-    --bullet-size: 70px;
+    --bullet-size: 64px;
     --text-size: 16px;
     --title-size: 24px;
     --transition-time: 500ms;
@@ -33,7 +33,7 @@ body {
     border-radius: var(--bullet-size);
     background:  var(--timeline-color);
     width: var(--bullet-size);
-    padding: 8px;
+    height: var(--bullet-size);
     box-sizing: border-box;
     flex-grow: 0;
     flex-shrink: 0;
@@ -50,7 +50,6 @@ body {
 }
 
 #timeline .line, #timeline .line-start, #timeline .line-end {
-    /*border-left: var(--timeline-thickness) solid var(--timeline-color);*/
     width: var(--timeline-thickness);
     background:  var(--timeline-color);
     margin-left: calc((var(--bullet-size) - var(--timeline-thickness)) / 2);
@@ -85,13 +84,11 @@ body {
     top: 0;
     left: 0;
     z-index: -1000;
-    /*filter: grayscale(100%) contrast(20%) brightness(150%);*/
     filter: grayscale(100%) contrast(20%) brightness(150%);
     transition: filter var(--transition-time);
 }
 
 #timeline .event.focused .image {
-    /*filter: grayscale(0%) contrast(20%) brightness(150%);*/
     filter: grayscale(0%) contrast(20%) brightness(150%);
 }
 
