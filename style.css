@@ -122,6 +122,7 @@ body {
 
 #timeline .content {
     text-shadow: 0 0 2px white;
+    max-width: 768px;
 }
 
 #timeline .content h2 {
