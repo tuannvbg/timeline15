@@ -62,7 +62,8 @@ body {
 }
 
 #timeline .line-start {
-    background: linear-gradient(transparent, var(--timeline-color));
+    /*background: linear-gradient(transparent, var(--timeline-color));*/
+    background: none;
 }
 
 #timeline .line-end {
