@@ -1,9 +1,9 @@
 :root {
     --red: #E72C34;
     --black: rgb(36, 36, 36);
-    --timeline-thickness: 10px;
+    --timeline-thickness: 14px;
     --timeline-color: var(--red);
-    --bullet-size: 64px;
+    --bullet-size: 60px;
     --text-size: 16px;
     --title-size: 24px;
     --transition-time: 500ms;
@@ -50,7 +50,7 @@ body {
 }
 
 #timeline .bullet span {
-    font-size: 12px;
+    font-size: 11px;
     color: white;
 }
 
