@@ -1,9 +1,9 @@
 :root {
     --red: #E72C34;
     --black: rgb(36, 36, 36);
-    --timeline-thickness: 14px;
+    --timeline-thickness: 12px;
     --timeline-color: var(--red);
-    --bullet-size: 60px;
+    --bullet-size: 54px;
     --text-size: 16px;
     --title-size: 24px;
     --transition-time: 500ms;
@@ -50,8 +50,8 @@ body {
 }
 
 #timeline .bullet span {
-    font-size: 11px;
     color: white;
+    transform: scale(0.9);
 }
 
 #timeline .line, #timeline .line-start, #timeline .line-end {
@@ -76,7 +76,7 @@ body {
 #timeline .event {
     display: flex;
     flex-direction: row;
-    min-height: 33vh;
+    min-height: 40vh;
     position: relative;
     background-image: linear-gradient(to right, white, transparent);
 }
@@ -144,9 +144,17 @@ body {
     padding: 16px;
     background: var(--red);
     color: white;
-    text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     margin-top: 1em;
     margin-bottom: 1em;
+    text-shadow: none;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
 }
