@@ -76,7 +76,7 @@ body {
 #timeline .event {
     display: flex;
     flex-direction: row;
-    min-height: 50vh;
+    min-height: 33vh;
     position: relative;
     background-image: linear-gradient(to right, white, transparent);
 }
@@ -138,4 +138,15 @@ body {
 
 #timeline .content img {
     width: 100%;
+}
+
+.button {
+    padding: 16px;
+    background: var(--red);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
