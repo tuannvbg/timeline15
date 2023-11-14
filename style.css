@@ -6,7 +6,7 @@
     --bullet-size: 54px;
     --text-size: 16px;
     --title-size: 24px;
-    --transition-time: 500ms;
+    --transition-time: 1s;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -76,7 +76,7 @@ body {
 #timeline .event {
     display: flex;
     flex-direction: row;
-    min-height: min(50vh, 500px);
+    min-height: 50vh;
     position: relative;
     background-image: linear-gradient(to right, white, transparent);
 }
