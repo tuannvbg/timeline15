@@ -52,6 +52,7 @@ body {
 #timeline .bullet span {
     color: white;
     transform: scale(0.9);
+    font-weight: bold;
 }
 
 #timeline .line, #timeline .line-start, #timeline .line-end {
@@ -78,7 +79,7 @@ body {
     flex-direction: row;
     min-height: 50vh;
     position: relative;
-    background-image: linear-gradient(to right, white, transparent);
+    background: rgba(255, 255, 255, 50%);
 }
 
 
@@ -125,7 +126,6 @@ body {
 }
 
 #timeline .content {
-    text-shadow: 0 0 2px white;
     max-width: 768px;
 }
 
@@ -148,7 +148,6 @@ body {
     display: inline-block;
     margin-top: 1em;
     margin-bottom: 1em;
-    text-shadow: none;
 }
 
 figure {
