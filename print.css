@@ -1,6 +1,3 @@
-body {
-}
-
 .button {
     display: none;
 }
@@ -12,7 +9,7 @@ body {
 
 #timeline .event .image {
     transition: filter 0 !important;
-    filter: grayscale(0%) contrast(20%) brightness(150%) !important;
+    filter: grayscale(0%) contrast(30%) brightness(150%) !important;
 }
 
 * {
@@ -23,9 +20,14 @@ body {
 #timeline .event {
     min-height: auto !important;
     background-image: none !important;
-    background: rgba(255, 255, 255, 40%);
+    background: rgba(255, 255, 255, 50%);
+    page-break-inside: avoid;
 }
 
 #timeline .content {
     text-shadow: none !important;
+}
+
+#qr-code {
+    display: inline-block;
 }
