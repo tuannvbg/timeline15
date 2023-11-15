@@ -79,7 +79,8 @@ body {
     flex-direction: row;
     min-height: 50vh;
     position: relative;
-    background: rgba(255, 255, 255, 50%);
+    /*background: rgba(255, 255, 255, 40%);*/
+    background-image: linear-gradient(to right, white, transparent);
 }
 
 
@@ -93,12 +94,12 @@ body {
     top: 0;
     left: 0;
     z-index: -1000;
-    filter: grayscale(100%) contrast(20%) brightness(150%);
+    filter: grayscale(100%) contrast(30%) brightness(150%);
     transition: filter var(--transition-time);
 }
 
 #timeline .event.focused .image {
-    filter: grayscale(0%) contrast(20%) brightness(150%);
+    filter: grayscale(0%) contrast(30%) brightness(150%);
 }
 
 #timeline .content-wrapper {
@@ -127,6 +128,7 @@ body {
 
 #timeline .content {
     max-width: 768px;
+    text-shadow: 0 0 2px white;
 }
 
 #timeline .content h2 {
@@ -148,10 +150,13 @@ body {
     display: inline-block;
     margin-top: 1em;
     margin-bottom: 1em;
+    text-shadow: none;
 }
 
 figure {
     margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 figcaption {
