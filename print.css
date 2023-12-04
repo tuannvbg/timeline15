@@ -31,3 +31,7 @@
 #qr-code {
     display: inline-block;
 }
+
+figure {
+    display: none !important;
+}
