@@ -1,3 +1,10 @@
+:root {
+    --text-size: 20px;
+    --caption-size: 16px;
+    --title-size: 32px;
+}
+
+
 .button {
     display: none;
 }
@@ -27,11 +34,11 @@
 #timeline .content {
     text-shadow: none !important;
 }
-
-#qr-code {
-    display: inline-block;
-}
-
+/*
 figure {
     display: none !important;
+}
+*/
+#qr-code {
+    display: inline-block !important;
 }

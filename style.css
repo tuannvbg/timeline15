@@ -5,6 +5,7 @@
     --timeline-color: var(--red);
     --bullet-size: 54px;
     --text-size: 16px;
+    --caption-size: 14px;
     --title-size: 24px;
     --transition-time: 1s;
 }
@@ -139,7 +140,9 @@ body {
 }
 
 #timeline .content img {
+    object-fit: cover;
     width: 100%;
+    max-height: 50vh;
 }
 
 .button {
@@ -161,6 +164,7 @@ figure {
 
 figcaption {
     font-style: italic;
+    font-size: var(--caption-size);
 }
 
 .todo {
@@ -173,5 +177,4 @@ figcaption {
     display: none;
     float: right;
     width: 128px !important;
-    font-size: 12px;
 }
