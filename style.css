@@ -183,3 +183,26 @@ figcaption {
     float: right;
     width: 128px !important;
 }
+
+blockquote {
+    position: relative;
+}
+
+blockquote::before {
+    content: "❝";
+    font-size: 48px;
+    position: absolute;
+    top: -16px;
+    left: -32px;
+    color: var(--red);
+}
+
+cite {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+}
+
+cite::before {
+    content: "- ";
+}
