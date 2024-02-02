@@ -186,10 +186,12 @@ figcaption {
 
 blockquote {
     position: relative;
+    margin-left: 40px;
 }
 
 blockquote::before {
     content: "❝";
+    font-family: "Inter", sans-serif;
     font-size: 48px;
     position: absolute;
     top: -16px;
