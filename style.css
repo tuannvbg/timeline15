@@ -195,7 +195,7 @@ blockquote::before {
     font-size: 48px;
     position: absolute;
     top: -16px;
-    left: -32px;
+    left: -40px;
     color: var(--red);
 }
 
