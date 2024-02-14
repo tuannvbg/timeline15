@@ -12,7 +12,7 @@
     --bullet-text-size: 16px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body {
     margin: 0;
@@ -25,6 +25,8 @@ body {
 
 #timeline {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-size: var(--text-size);
     color: var(--black);
 }
@@ -55,7 +57,7 @@ body {
 #timeline .bullet span {
     color: white;
     transform: scale(0.9);
-    font-weight: bold;
+    font-weight: 600;
     font-size: var(--bullet-text-size);
 }
 
@@ -134,14 +136,14 @@ body {
 
 #timeline .content {
     max-width: 768px;
-    text-shadow: 0 0 2px white;
 }
 
 #timeline .content h2 {
     color: var(--red);
-    font-weight: bold;
+    font-weight: 600;
     font-size: var(--title-size);
     text-transform: uppercase;
+    padding: 12px 0;
 }
 
 #timeline .content img {

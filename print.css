@@ -1,7 +1,7 @@
 :root {
     --text-size: 24px;
     --caption-size: 20px;
-    --title-size: 40px;
+    --title-size: 48px;
     --outer-margins: 72px;
     --timeline-thickness: 24px;
     --bullet-size: 100px;
@@ -22,7 +22,7 @@
 
 #timeline .event .image {
     transition: filter 0 !important;
-    filter: grayscale(0%) contrast(30%) brightness(150%) blur(4px) !important;
+    filter: grayscale(0%) contrast(30%) brightness(150%) blur(12px) !important;
 }
 
 * {
@@ -62,6 +62,10 @@ figure {
     width: 100vw;
     height: 100vh;
 }
+#timeline .image {
+    filter: grayscale(100%) contrast(30%) brightness(150%);
+} 
+
 
 #timeline .bullet-line {
     flex-direction: row;
